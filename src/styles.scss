@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+.img-container {
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*max-height: 200px;*/
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.img-container img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.h-200-px {
+    height: 200px !important;
+}
